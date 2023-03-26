@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container_form{
+margin-left: 150vh;
+   
+}
+.Second_section{
+    display: flex;
+    flex-direction: row;
+}
+.first_button{
+    margin-left: 50vh;
+}
+
+.div1{
+    width: 160px;
+background-color: whitesmoke;
+    height: 60vh;
+    box-shadow: 30px;
+    /* background-color:red; */
+    border: 3px solid khaki;
+    padding: 10px;
+    box-shadow: 5px 10px khaki;
+    
+    margin: -250px;
+    margin-left: 0px;
+    border-radius: 30px;
+
+    }
+.div2{
+    width: 50px;
+   border-radius: 5px;
+    height: 35vh;
+    background-color:black;
+    color: aliceblue;
+    margin-left: 200vh;
+    margin-top: -190px;
+    position: absolute;
+}
+.div1Inside{
+    height: 5vh;
+    background-color: black;
+    border-radius: 5px 10px 5px 10px;
+}
+.divButton{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 25px;
+    align-items: center;
+    margin: 50px;
+}
+.first_grid{
+    display: grid;
+  grid: 150px / auto auto auto;
+  grid-gap: 30px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+.MyFirst2Card{
+    position: absolute;
+    height: 70vh;
+    width: 500vh;
+    margin-top: 100px;
+}
+
+.Second_grid{
+    display: grid;
+  grid: 150px / auto auto auto;
+  grid-gap: 30px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+.MySecond2Card{
+    position: absolute;
+    height: 70vh;
+    width: 500vh;
+    margin-top: 700px;
+}
+.lastItem{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    margin-top: 900px;
+
+}
